@@ -740,12 +740,12 @@ function toggleUserMenu(user) {
 
 // Navigation functions for the user menu
 function navigateToProfile() {
-    window.location.href = '../../../../pages/page5/index.html';
+    window.location.href = '../../pages/page5/index.html';
 }
 
 function logout() {
     localStorage.removeItem('currentUser');
-    window.location.href = '././index.html';
+    window.location.href = '../../index.html';
 }
 
 // Function to add edit and delete buttons
